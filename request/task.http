@@ -1,0 +1,34 @@
+GET http://localhost:3000/api/tasks
+
+###
+GET http://localhost:3000/api/tasks?size=5
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "hacer un sitio web en wordpress full EN ANGULAR",
+    "description": "trabajo freelance",
+    "done": "true"
+}
+
+
+###
+
+GET http://localhost:3000/api/tasks/6010794e97438c1f34a40276
+
+###
+
+DELETE http://localhost:3000/api/tasks/6010794e97438c1f34a40276
+
+###
+GET http://localhost:3000/api/tasks/done
+
+###
+PUT http://localhost:3000/api/tasks/601082f9657c85171068f8e9
+Content-Type: application/json
+
+{
+    "title": "hacer un sitioMK POR FIN LE DIMOS AL PALO"
+}
